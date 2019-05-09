@@ -23,8 +23,9 @@ public class Users {
 	
 // Users객체에서 Follow 연관관계를 검색하고 싶다면 아래 추가
 // mappedBy는 연관관계의 주인이 아님을 설정
+// mappedBy가 있다는 것은 양방향 관계라는 뜻
 // mappedBy가 없는 쪽이 FK가 생김
-// mappedBy에 들어가는 값은 연관 관계 객체 Follow의 변수명
+// mappedBy에 들어가는 값은 연관 관계에 있는 Follow 객체의 변수명이다.
 //	@OneToMany(mappedBy = "from_user")
 //	private List<Follow> from_user;
 //	
